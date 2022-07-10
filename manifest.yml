@@ -1,0 +1,7 @@
+---
+applications:
+- name: ravkol1-dev-node-btp
+  buildpack: nodejs_buildpack
+  path: . 
+  memory: 256M
+  disk_quota: 256M
